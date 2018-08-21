@@ -56,8 +56,8 @@
         <config-file target="AndroidManifest.xml" parent="/*">
             <uses-permission android:name="android.permission.BLUETOOTH" />
             <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
-        </config-file>
+        </config-file>        
         <source-file src="src/android/com/apache/cordova/plugins/zebra/ZebraPrinter.java" target-dir="src/com/apache/cordova/plugins/zebra/" />
-        <source-file src="src/android/lib/ZSDK_ANDROID_API.jar" target-dir="libs"/>
+        <lib-file src="src/android/lib/ZSDK_ANDROID_API.jar" arch="device" />
     </platform>
 </plugin>
